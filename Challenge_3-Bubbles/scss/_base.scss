@@ -1,0 +1,40 @@
+html,
+body {
+  width: 100%;
+  height: max(100%, fit-content);
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  padding: 1rem 0;
+  background: rgb(7, 60, 124);
+  background: radial-gradient(
+    circle,
+    rgba(7, 60, 124, 1) 0%,
+    rgba(7, 3, 34, 1) 100%
+  );
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.bubble-container {
+  width: max(10rem, 50vw);
+  height: 200vh;
+  margin: 0 auto;
+  border: 1px solid #f006;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: red;
+  font-size: 0.9em;
+  font-family: monospace;
+}

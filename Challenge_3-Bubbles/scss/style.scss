@@ -1,0 +1,44 @@
+@use "base";
+
+.bubble-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .bubble {
+    position: relative;
+    width: 10rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #efefef;
+    border-radius: 0.5rem;
+
+    h2 {
+      font-family: sans-serif;
+      font-size: 1.2em;
+    }
+
+    &.fixed {
+      /*
+       * @TODO: Add fixed styling. Element should be top left.
+       */
+    }
+
+    /*
+     * @TODO: Add styling for .counter. Should be top right of the bubble it's in.
+     */
+
+    /*
+     * @TODO: Add a combined class selector and styling that puts bubble bottom right of bubble-container.
+     */
+
+    /*
+     * @TODO: Add a combined class selector and styling that makes a bubble sticky and lean a bit left. (Use margin-right).
+     */
+
+    /*
+     * @TODO: Add a combined class selector that makes a bubble lean a bit right. 
+     */
+  }
+}

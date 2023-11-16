@@ -1,0 +1,40 @@
+@use "base";
+@use "grid";
+
+$menu-level: 3;
+$content-level: 2;
+$background-level: 1;
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  z-index: $menu-level;
+
+  /*
+   * @TODO: Add position utility classes.
+   */
+}
+
+#banner {
+  /*
+   * @TODO: Add banner base styling.
+   */
+
+  /*
+   * @TODO: Add banner img styling.
+   */
+
+  /*
+   * @TODO: Add banner div.content styling.
+   */
+}
+
+/*
+ * @TODO: Add justify-content utility classes.
+ */
+
+/*
+ * @TODO: Add align-items utility classes.
+ */
